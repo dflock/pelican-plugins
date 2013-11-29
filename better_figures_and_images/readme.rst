@@ -48,3 +48,19 @@ or this, if RESPONSIVE_IMAGES = True:
 	        tempor incididunt ut labore et dolore magna aliqua.
 	    </div>
 	</div>
+
+Requirements
+============
+
+This plugin requires BeautifulSoup and PIL/Pillow:
+
+.. code-block:: bash
+
+	pip install beautifulsoup4 Pillow
+
+PIL/Pillow have binary modules, which pip will need to build on install - this requires some pre-requisites installed first:
+
+.. code-block:: bash
+
+    sudo apt-get install python-dev libxml2-dev libxslt1-dev
+
