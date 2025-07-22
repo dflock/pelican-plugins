@@ -86,7 +86,7 @@ CJK auto spacing                                                  `❓ <https://
 
 `Clean summary <./clean_summary>`_                                                                                                           Cleans your summary of excess images
 
-`Code include <./code_include>`_                                                                                                             Includes Pygments highlighted code in reStructuredText
+`Code include <./code_include>`_                                                                                                             Includes Pygments__ syntax highlights of various programming code for Markdown and reStructuredText
 
 `Collate content <./collate_content>`_                                                                                                       Makes categories of content available to the template as lists through a ``collations`` attribute
 
@@ -148,7 +148,7 @@ Gravatar                                                          `✔  <https:/
 
 `HTML tags for rST <./html_rst_directive>`_                                                                                                  Allows you to use HTML tags from within reST documents
 
-`I18N Sub-sites <./i18n_subsites>`_                                                                                                          Extends the translations functionality by creating internationalized sub-sites for the default site
+I18N Subsites                                                     `✔  <https://github.com/pelican-plugins/i18n-subsites>`_                   Extends the translations functionality by creating internationalized sub-sites for the default site
 
 `ical <./ical>`_                                                                                                                             Looks for and parses an ``.ics`` file if it is defined in a given page's ``calendar`` metadata.
 
@@ -172,7 +172,7 @@ Liquid-style tags                                                 `✔  <https:/
 
 Load CSV                                                          `❓ <https://github.com/e9t/pelican-loadcsv>`_                             Adds ``csv`` Jinja tag to display the contents of a CSV file as an HTML table
 
-Markdown-metaYAML                                                 `❓ <https://github.com/joachimneu/pelican-md-metayaml>`_                  Pelican reader to enable YAML-style metadata in markdown articles
+Markdown-metaYAML                                                 `⚠️  <https://github.com/joachimneu/pelican-md-metayaml>`_                  Pelican reader to enable YAML-style metadata in markdown articles. See also: `YAML Metadata <https://github.com/pelican-plugins/yaml-metadata>`_
 
 `Markdown Inline Extension <./md_inline_extension>`_                                                                                         Enables you to add customize inline patterns to your markdown
 
@@ -218,8 +218,6 @@ Pelican Github Projects                                           `❓ <https://
 
 Jupyter Notebooks                                                 `❓ <https://github.com/danielfrg/pelican-jupyter>`_                       Provides two modes to use Jupyter notebooks in Pelican.
 
-Pelican Jinja2Content                                             `⚠️  <https://github.com/joachimneu/pelican-jinja2content>`_                Allows the use of Jinja2 template code in articles, including ``include`` and ``import`` statements
-
 Lang Category                                                     `❓ <https://github.com/CNBorn/pelican-langcategory>`_                     Make languages behave the same as categories (visitor can browse articles in certain language).
 
 Pelican Link Class                                                `✔  <https://github.com/pelican-plugins/linkclass>`_                       Set class attribute of ``<a>`` elements according to whether the link is external or internal
@@ -256,7 +254,7 @@ Pelican Themes Generator                                          `❓ <https://
 
 `permalink <./permalinks>`_                                                                                                                  Enables a kind of permalink using html redirects.
 
-`Photos <./photos>`_                                               `✔  <https://github.com/pelican-plugins/photos>`                          Add a photo or a gallery of photos to an article, or include photos in the body text. Resize photos as needed.
+Photos                                                            `✔  <https://github.com/pelican-plugins/photos>`_                          Add a photo or a gallery of photos to an article, or include photos in the body text. Resize photos as needed.
 
 Pin to top                                                        `❓ <https://github.com/Shaked/pin_to_top>`_                               Pin Pelican's article(s) to top "Sticky article"
 
@@ -264,7 +262,7 @@ Pin to top                                                        `❓ <https://
 
 Post Revision                                                     `❓ <https://github.com/jhshi/pelican.plugins.post_revision>`_             Extract article and page revision information from Git commit history
 
-`Post statistics <./post_stats>`_                                                                                                            Calculates various statistics about a post and store them in an article.stats dictionary
+Post Statistics                                                   `✔  <https://github.com/pelican-plugins/statistics>`_                      Calculates various statistics about a post and stores them in an ``article.stats`` dictionary
 
 `Random article <./random_article>`_                                                                                                         Generates a html file which redirect to a random article
 
@@ -280,7 +278,7 @@ Render Math                                                       `✔  <https:/
 
 Replacer                                                          `❓ <https://github.com/narusemotoki/replacer>`_                           Replace a text of a generated HTML
 
-`Representative image <./representative_image>`_                                                                                             Extracts a representative image (i.e, featured image) from the article's summary or content
+Representative Image                                              `✔  <https://github.com/pelican-plugins/featured-image>`_                  Extracts a representative image (i.e, featured image) from the article's summary or content
 
 `RMD Reader <./rmd_reader>`_                                                                                                                 Create posts via knitr RMarkdown files
 
@@ -320,7 +318,7 @@ Thumbnailer                                                       `✔  <https:/
 
 `Tipue Search <./tipue_search>`_                                                                                                             Serializes generated HTML to JSON that can be used by jQuery plugin - Tipue Search
 
-`Touch <./touch>`_                                                                                                                           Does a touch on your generated files using the date metadata from the content
+`Touch <./touch>`_                                                `✔  <https://github.com/pelican-plugins/touch>`_                           Does a touch on your generated files using the date metadata from the content
 
 `Twitter Bootstrap <./twitter_bootstrap_rst_directives>`_                                                                                    Defines some rst directive that enable a clean usage of the twitter bootstrap CSS and Javascript components
 
@@ -336,6 +334,7 @@ Webring                                                           `✔  <https:/
 ================================================================  ========================================================================  ===========================================================
 
 __ https://ace.c9.io
+__ https://pygments.org/styles/
 
 Please refer to the ``Readme`` file in a plugin's folder for detailed information about
 that plugin.
